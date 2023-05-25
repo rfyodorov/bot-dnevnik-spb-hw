@@ -7,13 +7,13 @@ Telegram bot для просмотра домашнего задания с са
 - выводит текущий баланс кошелька (школьное питание)
 - выводит средний денежный расход на питание
 - показывает ФИО преподавателей и какие они ведут уроки
-- показывет информацию только авторизованным пользователям (chat_pass - задается в файле config.json)
-- сохраняет авторизованных в боте пользователей в файле users.json (для многопользовательского доступа)
+- показывет информацию только авторизованным пользователям ("_chat_pass_" - задается в файле _config.json_)
+- сохраняет авторизованных в боте пользователей в файле _users.json_ (для многопользовательского доступа)
 
 Для работы требуется:
-- зарегистрировать своего бота у FatherBot, получить token и добавить его в файле config.json
-- придумать свой пароль для авторизации и прописать его в chat_pass (файл config.json)
-- узнать своё значение cookie: X-JWT-Token (например через chrome extension - EditThisCookie) на сайте dnevnik2.petersburgedu.ru
+- зарегистрировать своего бота у _FatherBot_, получить "token" и добавить его в файле _config.json_
+- придумать свой пароль для авторизации и прописать его в "_chat_pass_" (файл _config.json_)
+- узнать своё значение cookie: "_X-JWT-Token_" (например через chrome extension - [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)) на сайте [dnevnik2](https://dnevnik2.petersburgedu.ru)
 
 Выгдядит так:
 ![](screenshot_bot.jpg "telegram bot").
