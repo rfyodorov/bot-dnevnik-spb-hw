@@ -1,0 +1,9 @@
+[
+  {
+    "name": "X-JWT-Token",
+    "value": "вставьте сюда Ваш cookie:X-JWT-Token",
+    "domain": "dnevnik2.petersburgedu.ru",
+    "path": "/",
+    "expires": null
+  }
+]
