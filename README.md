@@ -13,7 +13,7 @@ Telegram bot для просмотра домашнего задания с са
 Для работы требуется:
 - зарегистрировать своего бота у _FatherBot_, получить "token" и добавить его в файле _config.json_
 - придумать свой пароль для авторизации и прописать его в "_chat_pass_" (файл _config.json_)
-- узнать своё значение cookie: "_X-JWT-Token_", с помощью get_dnevnik_token.py (или например через chrome extension - [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)) на сайте [dnevnik2](https://dnevnik2.petersburgedu.ru)
+- узнать своё значение cookie: "_X-JWT-Token_", с помощью _get_dnevnik_token.py_ (или например через chrome extension - [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)) на сайте [dnevnik2](https://dnevnik2.petersburgedu.ru)
 
 Выгдядит так:
 ![](screenshot_bot.jpg "telegram bot").
